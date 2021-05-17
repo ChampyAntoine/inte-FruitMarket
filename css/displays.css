@@ -1,0 +1,33 @@
+.d-n {
+    display: none;
+}
+.d-f {
+    display: flex;
+}
+
+.f-aic {
+    align-items: center;
+}
+.f-jcc {
+    justify-content: center;
+}
+
+.f-jcr {
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.f-fd-c {
+    flex-direction: column;
+}
+
+.w-full {
+    width: 100%;
+}
+.w-max {
+    width: max-content;
+}
+
+.over-hidden {
+    overflow: hidden;
+}

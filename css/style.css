@@ -1,0 +1,15 @@
+* {
+    margin: 0;padding: 0; box-sizing: border-box; font-family: Poppins;
+}
+
+.layout {
+    /* width: 375px; */
+    min-height: 812px;
+    overflow: hidden;
+}
+
+.container {
+    /* width: 320px; */
+    min-height: 100vh;
+    overflow: hidden;
+}

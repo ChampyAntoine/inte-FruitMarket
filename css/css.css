@@ -1,0 +1,54 @@
+.waiting-page {
+    background-color: #69A03A;
+    position: relative;
+}
+
+.waiting-page img {
+    position: absolute;
+    bottom: -60px;
+}
+
+.pagination-bar div {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: 1px #6AA03B solid;
+}
+
+.pagination-bar div.full {
+    background-color: #6AA03B;
+}
+
+.button {
+    min-width: 140px;
+    padding: 10px;
+    background-color: #6AA03B;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+section {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+article {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 320px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 0.5fr 0.5fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "."
+      "."
+      ".";
+  }
+
+

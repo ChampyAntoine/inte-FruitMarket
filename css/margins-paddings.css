@@ -1,0 +1,30 @@
+.mr-0auto {
+    margin: 0 auto;
+}
+
+.mrb-75 {
+    margin-bottom: 75px;
+}
+.mrb-50{
+    margin-bottom: 50px;
+}
+.mrb-25 {
+    margin-bottom: 25px;
+}
+.mrb-10 {
+    margin-bottom: 10px;
+}
+
+.mr-25-0 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.mr-50-0 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.mr-0-5 {
+    margin:0 5px;
+}
